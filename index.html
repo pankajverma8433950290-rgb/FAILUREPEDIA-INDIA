@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Failurepedia India</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Failurepedia India</h1>
+  <p>Failures that teach more than success 🇮🇳</p>
+</header>
+
+<section class="stories">
+  <h2>Real Failure Stories</h2>
+
+  <div class="card">
+    <h3>Startup Failed in 6 Months</h3>
+    <p>I started a food delivery service in my town, but ignored unit economics...</p>
+  </div>
+
+  <div class="card">
+    <h3>Lost Money in Share Market</h3>
+    <p>Overconfidence + no stoploss = account wiped...</p>
+  </div>
+</section>
+
+<section class="submit">
+  <h2>Submit Your Failure</h2>
+
+  <input type="text" id="title" placeholder="Failure Title">
+  <textarea id="story" placeholder="Your failure story..."></textarea>
+  <button onclick="submitStory()">Submit</button>
+
+  <p id="msg"></p>
+</section>
+
+<footer>
+  <p>© 2026 Failurepedia India</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
